@@ -6,9 +6,17 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 13:25:36 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/22 15:06:32 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/22 15:25:34 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
+#include "Animal.hpp"
+#include "Cat.hpp"
+#include "Dog.hpp"
+#include "WrongAnimal.hpp"
+#include "WrongCat.hpp"
+#include "brain.hpp"
 
 int main()
 {

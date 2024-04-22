@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 13:25:24 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/22 15:04:25 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/22 15:26:38 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,4 @@ class Animal
         std::string getType(void) const;     
         virtual void makeSound() const;
 };
+#endif

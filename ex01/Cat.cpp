@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 13:25:26 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/22 15:04:30 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/22 15:27:04 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 Cat::Cat()
 {
+    brain = NULL;
     type = "Cat";
     std::cout << "Cat constructor called" << std::endl;
 }

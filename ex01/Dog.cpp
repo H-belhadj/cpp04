@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 13:25:31 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/22 15:04:45 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/22 15:27:23 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 Dog::Dog()
 {
+    brain = NULL;
     type = "Dog";
     std::cout << "Dog constructor called" << std::endl;
 }
