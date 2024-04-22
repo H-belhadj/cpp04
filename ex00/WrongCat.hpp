@@ -6,13 +6,14 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/20 09:05:59 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/20 09:16:57 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/22 12:55:20 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef WRONGCAT_HPP
 # define WRONGCAT_HPP
 
+#include "Animal.hpp"
 #include "WrongAnimal.hpp"
 
 class WrongCat: public WrongAnimal 

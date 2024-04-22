@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/20 09:05:47 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/20 09:12:49 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/22 13:07:23 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Dog: public Animal
         Dog(const Dog& other);
         Dog& operator=(const Dog& other);
         ~Dog();
-        virtual void makeSound() const;
+        void makeSound() const;
 };
 
 #endif
