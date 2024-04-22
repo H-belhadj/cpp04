@@ -1,6 +1,6 @@
 CXX=c++
-SRC = Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp main.cpp brain.cpp
-DFS = Animal.hpp Cat.hpp Dog.hpp WrongAnimal.hpp WrongCat.hpp brain.hpp
+SRC = Animal.cpp brain.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp main.cpp 
+DFS = Animal.hpp brain.hpp Cat.hpp Dog.hpp WrongAnimal.hpp WrongCat.hpp 
 
 OSRC=$(SRC:.cpp=.o)
 NAME= ClapTrap
