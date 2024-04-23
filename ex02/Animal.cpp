@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 11:32:14 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/23 11:46:30 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/23 17:08:15 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,5 @@ void    Animal::setType(std::string type)
 std::string Animal::getType() const
 {
     std::cout << "Animal GetType called" << std::endl;
-    return this->type;
+    return (this->type);
 }
