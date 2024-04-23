@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 11:25:31 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/23 11:33:01 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/23 12:20:35 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,8 @@ Cat& Cat::operator=(const Cat& other)
     if(this != &other)
     {
         this->type = other.type;
+        if (this->brain)
+                delete this->brain;
         this->brain = new Brain(*other.brain);
     }
     return (*this);
