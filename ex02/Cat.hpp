@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 11:25:34 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/23 11:47:41 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/23 17:04:44 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,5 @@ class Cat: public Animal
         ~Cat();
         void makeSound() const;
 };
+
 #endif
