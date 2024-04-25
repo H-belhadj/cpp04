@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 15:05:49 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/22 15:15:13 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/25 18:05:43 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ Brain& Brain::operator=(const Brain &other)
             i++;
         }
     }
+    std::cout << "Brain Copy Assignment operator called" << std::endl;
     return (*this);
 }
 Brain::~Brain()

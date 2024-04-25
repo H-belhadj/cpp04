@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/20 09:05:55 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/20 09:17:28 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/24 12:14:04 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,10 @@ class WrongAnimal
         WrongAnimal(const WrongAnimal& other);
         WrongAnimal& operator=(const WrongAnimal& other);
         ~WrongAnimal();
-        void    setType(std::string type);
+        
+        void        setType(std::string type);
         std::string getType(void) const;
-        void makeSound() const;
+        void        makeSound() const;
 };
 
 #endif

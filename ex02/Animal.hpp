@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 11:32:17 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/23 11:46:25 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/24 12:27:45 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ class Animal
 {
     protected:
         std::string type;
+
     public:
         Animal();
         Animal(const Animal& other);

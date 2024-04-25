@@ -10,17 +10,15 @@ all: $(NAME)
 
 $(NAME):$(OSRC) 
 	@$(CXX) $(CFLAGS) $(OSRC) -o $@
-	@printf "ALL IS READY.\n"
 
 %.o : %.cpp $(DFS)
 	@$(CXX) $(CFLAGS) -c $<
 
 clean:
-	@rm -rf *.o
-	@printf " - Object Files Removed.\n"
+	@rm -rf $(OSRC)
 
-fclean:
-	@rm -rf *.o $(NAME)
+fclean: clean
+	@rm -rf $(NAME)
 
 re:fclean all
 

@@ -6,13 +6,11 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/20 09:05:52 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/22 12:52:34 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/25 17:55:18 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
 #include "WrongAnimal.hpp"
-
 
 WrongAnimal::WrongAnimal()
 {

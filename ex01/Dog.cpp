@@ -6,7 +6,7 @@
 /*   By: hbelhadj <hbelhadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 13:25:31 by hbelhadj          #+#    #+#             */
-/*   Updated: 2024/04/22 19:00:56 by hbelhadj         ###   ########.fr       */
+/*   Updated: 2024/04/25 18:12:02 by hbelhadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ Dog& Dog::operator=(const Dog& other)
     std::cout << "Dog Copy Assignment operator called" << std::endl;
     if(this != &other)
     {
+        //leaks
         this->type = other.type;
         this->brain = new Brain(*other.brain);
     }
